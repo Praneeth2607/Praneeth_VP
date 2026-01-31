@@ -9,7 +9,7 @@ const projects = [
     title: "Healthcare Appointment Scheduling System",
     description:
       "A full stack healthcare appointment platform with patient and doctor workflows, calendar based booking, and status driven scheduling.",
-    image: "/projects/healthcare.png",
+    image: "/projects/Healthcare.png",
     stack: ["React", "Node.js", "Express", "MongoDB"],
     link: "https://github.com/Praneeth2607/Appointment-Scheduling-System"
   },
