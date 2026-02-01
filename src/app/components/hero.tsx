@@ -34,6 +34,11 @@ export default function Hero() {
 
             <div className="mt-10 flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
             <button
+              onClick={() => {
+                document
+                  .getElementById("projects")
+                  ?.scrollIntoView({ behavior: "smooth" })
+              }}
                 className="
                 group relative overflow-hidden rounded-xl
                 px-7 py-3 font-semibold
@@ -57,6 +62,11 @@ export default function Hero() {
             </button>
 
             <button
+              onClick={() => {
+                  document
+                    .getElementById("contact")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }}
                 className="
                 group relative overflow-hidden rounded-xl
                 px-7 py-3 font-semibold
